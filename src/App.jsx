@@ -10,6 +10,7 @@ function App() {
   return (
     <div className='flex justify-center'>
       <div>
+      <div><p className='text-[20px] font-bold py-2'>Set the Time</p></div>
         <div className='flex justify-around my-2 gap-4 rounded p-2 border-[1px] '>
           <div onClick={()=>(setCount((count)=>({...count,c:count.c+1})))} className='cursor-pointer border-[1px] rounded-full p-2'><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
